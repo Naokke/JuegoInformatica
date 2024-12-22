@@ -1,0 +1,180 @@
+{
+	"name": "Eventos Gatojuego",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-speed",
+					"objectClass": "CatWalk",
+					"sid": 659439774149512,
+					"behaviorType": "Plataforma",
+					"parameters": {
+						"comparison": 1,
+						"speed": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "CatWalk",
+					"sid": 310479917556662,
+					"parameters": {
+						"animation": "\"Walk\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 852062807542441
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-speed",
+					"objectClass": "CatWalk",
+					"sid": 352905568718805,
+					"behaviorType": "Plataforma",
+					"parameters": {
+						"comparison": 0,
+						"speed": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "CatWalk",
+					"sid": 133264531080363,
+					"parameters": {
+						"animation": "\"Idle\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 711385958264692
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "CatWalk",
+					"sid": 134198029819364,
+					"parameters": {
+						"object": "cpu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-default-color",
+					"objectClass": "cpu",
+					"sid": 617974398102892,
+					"parameters": {
+						"color": "rgbEx(255, 255, 0)"
+					}
+				}
+			],
+			"sid": 287035658043436
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "CatWalk",
+					"sid": 680817969561871,
+					"parameters": {
+						"object": "cpu_cooler"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-default-color",
+					"objectClass": "cpu_cooler",
+					"sid": 427518801771559,
+					"parameters": {
+						"color": "rgbEx(255, 255, 0)"
+					}
+				}
+			],
+			"sid": 163919432735012
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "CatWalk",
+					"sid": 929830058590523,
+					"parameters": {
+						"object": "Placa_base"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-default-color",
+					"objectClass": "Placa_base",
+					"sid": 625025678892963,
+					"parameters": {
+						"color": "rgbEx(255, 255, 0)"
+					}
+				}
+			],
+			"sid": 151932694735871
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "CatWalk",
+					"sid": 882951157247762,
+					"parameters": {
+						"object": "Grafica"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-default-color",
+					"objectClass": "Grafica",
+					"sid": 671886285139477,
+					"parameters": {
+						"color": "rgbEx(255, 255, 0)"
+					}
+				}
+			],
+			"sid": 208861708316584
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "CatWalk",
+					"sid": 749227719146896,
+					"parameters": {
+						"object": "psu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-default-color",
+					"objectClass": "psu",
+					"sid": 562749654852695,
+					"parameters": {
+						"color": "rgbEx(255, 255, 0)"
+					}
+				}
+			],
+			"sid": 218971596098193
+		}
+	],
+	"sid": 479058981700319
+}

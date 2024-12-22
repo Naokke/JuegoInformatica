@@ -1,0 +1,27 @@
+{
+	"name": "Eventos inicio",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "BottComenzar",
+					"sid": 994330998433507
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 780848886051151,
+					"parameters": {
+						"layout": "\"Examen\""
+					}
+				}
+			],
+			"sid": 257003658865406
+		}
+	],
+	"sid": 388078610209369
+}
