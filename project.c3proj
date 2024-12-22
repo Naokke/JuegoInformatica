@@ -1,0 +1,329 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 41602,
+	"name": "Juego1",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Botón",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Texto",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TextBox",
+			"name": "Entrada de texto",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Fondo en mosaico",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "progressbar",
+			"name": "Barra de progreso",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Anchor",
+			"name": "Ancla",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "DragnDrop",
+			"name": "Arrastrar y soltar",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pegado",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Plataforma",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Desplazar hasta",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Sólido",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "vignette",
+			"name": "Viñeta",
+			"author": "Brad Larson",
+			"bundled": false
+		}
+	],
+	"uniqueId": "cfshy7med2z",
+	"objectTypes": {
+		"items": [
+			"Placa_base",
+			"Mouse",
+			"ATX_Case",
+			"Comprobador_PlacaBase",
+			"EntradaDeTextoPlaca",
+			"PreguntasTexto",
+			"psu",
+			"Comprobador_psu",
+			"Aciertos",
+			"numAciertos",
+			"cpu_cooler",
+			"cpu",
+			"Grafica",
+			"ram",
+			"EntradaDeTextoPSU",
+			"EntradaDeTextoRAM",
+			"EntradaDeTextoCPU_cooler",
+			"EntradaDeTextoCPU",
+			"EntradaDeTextoGPU",
+			"FondoEnMosaico",
+			"BarraDeProgreso",
+			"img",
+			"BottComenzar",
+			"PracticaCOMp",
+			"Box",
+			"background_",
+			"background_2",
+			"background_3",
+			"BotónSeguir",
+			"CatWalk",
+			"Mapa",
+			"PisoSolido",
+			"Plataforma",
+			"Pedra",
+			"Brillitos",
+			"PisoOscuro"
+		],
+		"subfolders": []
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"Examen",
+			"Inicio",
+			"Gatojuego"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"Eventos Examen",
+			"Eventos inicio",
+			"Eventos Gatojuego"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [],
+			"subfolders": []
+		},
+		"music": {
+			"items": [],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "icono-16.png",
+					"type": "image/png",
+					"sid": 832887055206659,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icono-32.png",
+					"type": "image/png",
+					"sid": 540645691029266,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icono-64.png",
+					"type": "image/png",
+					"sid": 126372729556005,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icono-128.png",
+					"type": "image/png",
+					"sid": 762240747041801,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icono-256.png",
+					"type": "image/png",
+					"sid": 942973586386012,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icono-512.png",
+					"type": "image/png",
+					"sid": 979019827724334,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "logo-carga.png",
+					"type": "image/png",
+					"sid": 871177098081036,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [
+			"Línea de tiempo 1"
+		],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"flowcharts": {
+		"items": [],
+		"subfolders": []
+	},
+	"properties": {
+		"description": "",
+		"version": "1.0.0.0",
+		"author": "",
+		"authorEmail": "",
+		"authorWebsite": "",
+		"appId": "",
+		"pixelRounding": false,
+		"zAxisScale": "normalized",
+		"fov": 0.7853981633974483,
+		"useLoaderLayout": false,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0.3686274509803922,
+			0.45098039215686275,
+			0.4980392156862745,
+			0
+		],
+		"splashColor": [
+			0.25098039215686274,
+			0.3215686274509804,
+			0.34901960784313724,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"orientations": "landscape",
+		"webgpu": "auto",
+		"gpuPreference": "high-performance",
+		"scriptsType": "module",
+		"framerateMode": "vsync",
+		"sampling": "trilinear",
+		"downscaling": "medium",
+		"renderingMode": "auto",
+		"anisotropicFiltering": "auto",
+		"zNear": 1,
+		"zFar": 10000,
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "splash",
+		"preloadSounds": true,
+		"cordovaiOSScheme": "app",
+		"cordovaAndroidScheme": "https",
+		"exportFileStructure": "folders",
+		"uidAllocationMode": "increment"
+	},
+	"viewportWidth": 1920,
+	"viewportHeight": 1080,
+	"firstLayout": "Inicio"
+}
